@@ -1,4 +1,4 @@
-# Project of Mortality Mapping with R-INLA Under Bayesian Framework With Application to Lung Cancer Mortality in Pennsylvania
+# Disease Risk Mapping with R-INLA Under Bayesian Framework With Application to Lung Cancer Mortality in Pennsylvania
 
 For this project, we discussed the characteristics of spatial data and Bayesian approaches in spatial modeling. Due to the complex hierarchical structure of the spatial data, the Bayesian inference may be performed using the INLA approach, which is a computational alternative to MCMC that allows to do approximate Bayesian inference in LGMs. This approach is implemented in the R package called INLA.  
 
