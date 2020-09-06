@@ -1,7 +1,7 @@
 ## Disease Risk Mapping with R-INLA Under Bayesian Framework With Application to Lung Cancer Mortality in Pennsylvania
 
-Authors: Xiaoqing Tan, Anran Liu, Liwen Wu
-Affiliation: Department of Biostatistics, University of Pittsburgh
+Authors: Xiaoqing Tan, Anran Liu, Liwen Wu  
+Affiliation: Department of Biostatistics, University of Pittsburgh  
 
 For this project, we discussed the characteristics of spatial data and Bayesian approaches in spatial modeling. Due to the complex hierarchical structure of the spatial data, the Bayesian inference may be performed using the Integrated Nested Laplace Approximations (INLA) approach, which is a computational alternative to Markov chain Monte Carlo (MCMC) that allows to do approximate Bayesian inference in latent Gaussian models (LGMs). This approach is implemented in the R package called INLA.  
 
