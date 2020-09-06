@@ -1,5 +1,7 @@
 ## Disease Risk Mapping with R-INLA Under Bayesian Framework With Application to Lung Cancer Mortality in Pennsylvania
 
+Authors: Xiaoqing Tan, Anran Liu, Liwen Wu
+
 For this project, we discussed the characteristics of spatial data and Bayesian approaches in spatial modeling. Due to the complex hierarchical structure of the spatial data, the Bayesian inference may be performed using the Integrated Nested Laplace Approximations (INLA) approach, which is a computational alternative to Markov chain Monte Carlo (MCMC) that allows to do approximate Bayesian inference in latent Gaussian models (LGMs). This approach is implemented in the R package called INLA.  
 
 We then gave a practical example where we modeled the risk of lung cancer mortality in Pennsylvania in 2012 with smoking percentage and Radon level data in 2002 with a Bayesian spatial model. We assumed a 10-year lag of the effects of smoking and Radon level. The spatial correlation was accounted for by a conditional independent autoregressive structure for neighboring counties. A weakly-informative prior was used in INLA for model inference. As we can see from the results, both the proportion of smokers and the level of radon in each county were positively associated with lung cancer mortality. Counties in western Pennsylvania, in general, showed a higher risk compared to eastern counties.  
